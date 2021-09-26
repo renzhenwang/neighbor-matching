@@ -4,9 +4,9 @@ The implementation is based on [LatentMixing](https://github.com/Prasanna1991/La
 
 
 # How to run?
-'''
+```
 python main_neighbor_matching.py --augu --out Final_models/ip1@350 --epochs 256 --batch-size 128 --lr 0.0001 --schedule 50 125 --howManyLabelled 350 --lambda-u 1.0 --manualSeed 1 --noSharp --gpu 0 
-'''
+```
 (For more detail, follow run.sh)
 
 # Requirements:
