@@ -23,4 +23,4 @@ python main_neighbor_matching.py --augu --out Final_models/ip1@350 --epochs 256 
 2. https://github.com/YU1ut/MixMatch-pytorch
 
 # Questions
-Please feel free to contract "wrzhen@stu.xjtu.edu.cn".
+Please feel free to contact "wrzhen@stu.xjtu.edu.cn".
