@@ -83,7 +83,7 @@ class AlexNet(nn.Module):
         self.data = data
         
         self.mom = mom
-        self.K = batch_size // self.n_class   # memory size
+        self.K = batch_size // self.n_class * 2   # memory size
         self.cudable = cudable
         
         self.encoder_teacher = Encoder(batch_size, std, noise, input_shape , p, data, cudable)
